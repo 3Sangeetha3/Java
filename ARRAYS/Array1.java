@@ -46,5 +46,7 @@ public class Array1 {
             System.out.print(d[i] + " ");
         }
         System.out.println(Arrays.toString(d));
+
+        in.close();
     }
 }
