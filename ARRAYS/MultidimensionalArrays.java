@@ -1,5 +1,6 @@
 package ARRAYS;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class MultidimensionalArrays {
     public static void main(String[] args) {
@@ -20,10 +21,11 @@ public class MultidimensionalArrays {
 
         System.out.println("The elements of the array are: ");
         for(int i=0;i<arr.length;i++) {
-            for(int j=0; j<arr[i].length; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
+            // for(int j=0; j<arr[i].length; j++) {
+            //     System.out.print(arr[i][j] + " ");
+            // }
+            // System.out.println();
+            System.out.println(Arrays.toString(arr[i]));
         }
 
         in.close();
